@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/flexLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="flexboxLayout属性：" />
+
+        <TextView
+            android:id="@+id/flexDirection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:padding="10dp"
+            android:text="flexDirection" />
+
+        <TextView
+            android:id="@+id/flexWrap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:padding="10dp"
+            android:text="flexWrap" />
+
+        <TextView
+            android:id="@+id/justifyContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:padding="10dp"
+            android:text="justifyContent" />
+
+        <TextView
+            android:id="@+id/alignItems"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:padding="10dp"
+            android:text="alignItems" />
+
+        <TextView
+            android:id="@+id/alignContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:padding="10dp"
+            android:text="alignContent" />
+
+        <TextView
+            android:id="@+id/divider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:padding="10dp"
+            android:text="divider" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="子元素属性：" />
+
+        <TextView
+            android:id="@+id/layout_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:padding="10dp"
+            android:text="layout_order" />
+
+        <TextView
+            android:id="@+id/layout_flexGrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:padding="10dp"
+            android:text="layout_flexGrow" />
+
+        <TextView
+            android:id="@+id/layout_flexShrink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:padding="10dp"
+            android:text="layout_flexShrink" />
+
+        <TextView
+            android:id="@+id/layout_alignSelf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:padding="10dp"
+            android:text="layout_alignSelf" />
+
+        <TextView
+            android:id="@+id/layout_flexBasisPercent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:padding="10dp"
+            android:text="layout_flexBasisPercent" />
+
+        <TextView
+            android:id="@+id/recycler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:padding="10dp"
+            android:text="与RecyclerView使用" />
+
+    </LinearLayout>
+
+
+</ScrollView>
+

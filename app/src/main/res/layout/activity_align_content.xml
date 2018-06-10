@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/stretch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="stretch "
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/flex_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="flex_start"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/flex_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="flex_end "
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="center "
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/space_between"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="space_between "
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/space_around"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="space_around "
+        android:textAllCaps="false" />
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:id="@+id/flexLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        app:alignItems="flex_start"
+        app:flexWrap="wrap">
+
+        <TextView
+            android:id="@+id/tx1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#BEEDC7"
+            android:gravity="center"
+            android:text="1" />
+
+        <TextView
+            android:id="@+id/tx2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#BEE7E9"
+            android:gravity="center"
+            android:text="2" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#A0EEE1"
+            android:gravity="center"
+            android:text="3" />
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#8CC7B5"
+            android:gravity="center"
+            android:text="4" />
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#19CAAD"
+            android:gravity="center"
+            android:text="5" />
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#D6D5B7"
+            android:gravity="center"
+            android:text="6" />
+
+        <TextView
+            android:id="@+id/tv7"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#D1BA74"
+            android:gravity="center"
+            android:text="7" />
+
+        <TextView
+            android:id="@+id/tv8"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#E6CEAC"
+            android:gravity="center"
+            android:text="8" />
+
+        <TextView
+            android:id="@+id/tv9"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#ECAD9E"
+            android:gravity="center"
+            android:text="9" />
+
+        <TextView
+            android:id="@+id/tv10"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#F4606C"
+            android:gravity="center"
+            android:text="10" />
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+</LinearLayout>
